@@ -1,0 +1,20 @@
+p {
+    color: var(--textoPrimario  );
+
+}
+
+h1, h2 {
+    color: var(--corDestaque);
+}
+
+
+
+a {
+    font-size: 100%;
+}
+
+button {
+    background-color: var(--corDestaque);
+    padding: 0.6rem;
+    border-radius: 3px;
+}
