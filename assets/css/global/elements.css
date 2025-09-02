@@ -17,4 +17,18 @@ button {
     background-color: var(--corDestaque);
     padding: 0.6rem;
     border-radius: 3px;
+    cursor: pointer;
+    transition: 1 ease;
+}
+
+button:hover {
+    background-color: var(--corDeAlerta);
+}
+
+input {
+    color: black;
+}
+
+textarea {
+    color: black;
 }
