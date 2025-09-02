@@ -1,0 +1,76 @@
+.projetos {
+    text-align: center;
+}
+
+.port1 {
+    width: 22.5rem;
+    height: 41.25rem;
+    background-image: url(/assets/img/proj1.png);
+    background-size: cover;
+    border-radius: 1.875rem;
+    cursor: pointer;
+    background-position: 100% 0%;
+    transition: 5s ease;
+}
+
+.port1:hover {
+    background-position: 100% 100%;
+}
+
+
+.port2 {
+    width: 22.5rem;
+    height: 41.25rem;
+    background-image: url(/assets/img/proj2.png);
+    background-size: cover;
+    border-radius: 1.875rem;
+    cursor: pointer;
+    background-position: 100% 0%;
+    transition: 3s ease;
+}
+
+.port2:hover {
+    background-position: 100% 100%;
+}
+
+.port3 {
+    width: 22.5rem;
+    height: 41.25rem;
+    background-image: url(/assets/img/proj3.png);
+    background-size: cover;
+    border-radius: 1.875rem;
+    cursor: pointer;
+    background-position: 100% 0%;
+    transition: 1s ease;
+}
+
+.port3:hover {
+    background-position: 100% 100%;
+}
+
+.port1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.port2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.port3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ports {
+    display: flex;
+    justify-content: center;
+    /* centraliza as divs */
+    gap: 20px;
+    margin: 4em 0em;
+}
+
