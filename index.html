@@ -112,14 +112,14 @@
         <!-- CONTATO -->
         <section id="contato" class="my-20">
             <h2 class="text-3xl text-center mb-10">Vamos Conversar?</h2>
-            <form netlify class="flex flex-col justify-center items-center max-w-md m-auto">
+            <form netlify id="form" class="flex flex-col justify-center items-center max-w-md m-auto">
                 <input class="bg-white rounded-lg p-3 m-3 w-full" type="text" id="nome" placeholder="Seu nome" required>
                 <input class="bg-white rounded-lg p-3 m-3 w-full" type="email" id="email" placeholder="Seu e-mail"
                     required>
                 <textarea class="bg-white rounded-lg p-3 m-3 w-full" id="mensagem" rows="5"
                     placeholder="Escreva sua mensagem..." required></textarea>
                 <button type="submit" onclick="envio()"
-                    class="px-6 py-2 bg-blue-600 rounded-lg hover:bg-blue-700 transition">Enviar</button>
+                    class="mb-10 px-6 py-2 rounded-lg  transition">Enviar</button>
             </form>
             <div id="popup-sucesso"
                 class="hidden fixed top-5 right-5 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg">

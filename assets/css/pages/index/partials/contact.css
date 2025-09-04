@@ -1,21 +1,28 @@
 input[required]:invalid,
 textarea[required]:invalid {
-  border: 2px solid #dc2626; /* vermelho */
-  background-color: #FFE5E5;
+    border: 2px solid #dc2626;
+    /* vermelho */
+    background-color: #FFE5E5;
 }
 
 input[required]:valid,
 textarea[required]:valid {
-  border: 2px solid #16a34a; /* verde */
+    border: 2px solid #16a34a;
+    /* verde */
 }
 
 #popup-sucesso {
-  transition: opacity 0.5s, transform 0.5s;
-  opacity: 0;
-  transform: translateY(-20px);
+    border-radius: 4px;
+    padding: 1.3vh;
+    background-color: green;
+    width: fit-content;
+    margin: auto;
+    transition: opacity 0.5s, transform 0.5s;
+    opacity: 0;
+    transform: translateY(-20px);
 }
 
 #popup-sucesso.show {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }
