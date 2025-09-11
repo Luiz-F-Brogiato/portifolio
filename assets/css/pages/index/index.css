@@ -1,9 +1,7 @@
-@import "./partials/navA.css";
-@import "./partials/hero.css";
+
 @import "./partials/about.css";
 @import "./partials/ferramentas.css";
 @import "./partials/projetos.css";
 @import "./partials/contact.css";
-@import "./partials/footer.css";
 @import "./partials/mobile-menu.css";
 @import "/assets/css/global/global.css";
