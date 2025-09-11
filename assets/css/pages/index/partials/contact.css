@@ -26,3 +26,8 @@ textarea[required]:valid {
     opacity: 1;
     transform: translateY(0);
 }
+
+#contato {
+    width: 65%;
+   margin: auto;
+}

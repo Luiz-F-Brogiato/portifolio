@@ -1,0 +1,13 @@
+.sobre {
+    width: 26.042vw;
+}
+
+.sobre p {
+    text-align: justify;
+}
+
+@media screen and (max-width: 895px) {
+    .sobre {
+        width: 75%;
+    }
+}
