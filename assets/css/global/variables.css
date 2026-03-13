@@ -1,0 +1,13 @@
+:root {
+    --corDeAlerta: #2ECC71;
+    --hoverDestaque: #0097B2;
+    --corDestaque: #00B8D9;
+    --textoSecundario: #8B949E;
+    --textoPrimario:  #E6EDF3;
+    --cardsDestaque: #161B22;
+    --fundoPrincipal: #0D1117;
+
+    --f1: clamp(1rem, 1vw, 1.2rem);
+    --f2: clamp(2rem, 1vw, 2.2rem);
+    --f3: clamp(3rem, 1vw, 3.2rem);
+}

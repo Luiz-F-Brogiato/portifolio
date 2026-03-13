@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    margin: 10rem 5rem 2rem 10rem;
+    justify-content: center;
+
+}
+
+.hero img {
+    width: min-content;
+    height: auto;
+}
+
+button a {
+    color: var(--corPrincipal);
+    text-decoration: none;
+    font-size: var(--f1);
+}
+
+button:hover {
+    color: var(--textoPrimario);
+    background-color: var(--hoverDestaque);
+}
+
+@media (max-width: 785px) {
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem;
+        margin: 10rem 0;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .hero-text h1 {
+        font-size: var(--f1);
+    }
+}
+

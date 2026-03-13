@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    margin: 0em 10em 0em 10em;
+    justify-content: center;
+    justify-content: space-between;
+
+
+}
+
+.abt-text {
+    flex: 1;
+    padding: 1em;
+    text-align: justify;
+
+}
+
+.abt-text > h3 {
+    color: #00BFFF;
+}
+
+.abt-img > img {
+    box-shadow: 10px 10px;
+}
+
+.about > button {
+
+}
+
+
+@media (max-width: 785px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        align-items: center;
+        gap: 1rem;
+    }
+
+
+}

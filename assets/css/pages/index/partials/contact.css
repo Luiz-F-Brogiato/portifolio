@@ -1,0 +1,23 @@
+.contact h2 {
+    text-align: center;
+}
+
+.contact {
+     box-sizing: border-box;
+}
+
+.contact-div {
+    display: flex;
+    flex-direction: column ;
+    width: fit-content;
+    align-items: center;
+    margin: auto;
+   
+}
+
+.contact-div button {
+    margin-top: 2rem;
+    padding: max-content;
+}
+
+

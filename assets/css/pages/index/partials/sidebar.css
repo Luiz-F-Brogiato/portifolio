@@ -1,0 +1,32 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    box-shadow: 10px 0px 10px;
+    display: none   ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+#menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .notsideBar {
+        display: none;
+    }
+
+    .sidebar {
+        flex-wrap: nowrap
+    }
+
+    #menu {
+        display: block;
+    }
+}

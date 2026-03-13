@@ -1,0 +1,27 @@
+nav a:not(:last-child) {
+    text-decoration: none;
+    color: var(--textoSecundario);
+    transition: 0.4s ease   ;
+}
+
+nav a:not(:last-child):hover {
+    color: var(--corDestaque);
+}
+
+nav a:nth-child(5) {
+     text-decoration: none;
+    color: var(--textoPrimario);
+    background-color: var(--cardsDestaque);
+    padding: 0.6em 1.3em;
+    border-radius: 0.4em;
+    transition: 0.4s ease;
+}
+nav a:nth-child(5):hover {
+     background-color: var(--hoverDestaque);
+     
+}
+
+
+nav a:nth-child(1) {
+     padding-left: 4em;
+}

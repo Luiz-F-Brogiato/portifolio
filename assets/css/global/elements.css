@@ -1,0 +1,108 @@
+body {
+    background-color: var(--fundoPrincipal);
+    transition: 1s;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin: 2rem;
+    margin-right: 6rem;
+    
+}
+
+
+nav {
+    gap: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: var(--f2);
+    color: var(--corDestaque);
+    font-weight: bold;
+}
+
+p {
+    font-size: var(--f1);
+    color: var(--textoPrimario);
+    padding: 1rem 0rem;
+}
+
+button {
+    padding: 0.8em 4em;
+    border-radius: 0.4em;
+    transition: 0.4s ease;
+}
+
+h3 {
+    color: var(--textoPrimario);
+    font-size: var(--f2);
+    opacity: 20%;
+}
+
+h2 {
+    font-size: var(--f2);
+    color: var(--corDestaque);
+    font-weight: 400;
+}
+
+figcaption {
+    color: var(--corDestaque);
+}
+
+ul {
+
+    display: flex;
+    gap: 3rem;
+    /* espaço entre os itens */
+    list-style: none;
+    /* remove as bolinhas da lista */
+    padding: 0;
+    margin: 4em 2em;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 1rem;
+    margin: 0.8em;
+    border-radius: 0.2rem;
+}
+
+textarea {
+    width: max-content;
+    padding: 2rem 1rem;
+    margin-top: 0.8rem ;
+    border-radius: 0.2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section {
+  opacity: 0;
+  transform: translateY(60px); /* vem de baixo */
+  transition: all 0.9s ease-out;
+  will-change: transform, opacity;
+}
+
+/* Quando a section entra na tela */
+.section-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    header {
+        display: none;
+    }
+}

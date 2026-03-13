@@ -1,0 +1,15 @@
+.ferramentas ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ferramentas {
+    margin: 5em 10em 10em 10em;
+}
+
+.ferramentas h2 {
+    text-align: center;
+}
